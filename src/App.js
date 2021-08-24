@@ -5,7 +5,8 @@ import { useState } from "react";
 const books = {
   action: [
     { name: "Life of Pi:Yann Martel  ", year: "2003" },
-    { name: "The Three Musketeers:Alexandre Dumas ", year: "2014" }
+    { name: "The Three Musketeers:Alexandre Dumas ", year: "2014" },
+    { name: "Jurassic Park noval ", year: "1990" }
   ],
 
   selfhelp: [
@@ -16,6 +17,10 @@ const books = {
     {
       name: "Your Next Five Moves:Patrick Bet-David",
       year: "2020"
+    },
+    {
+      name: "Can't hurt me- david gogins",
+      year: "2018"
     }
   ],
   Mystery: [
@@ -25,6 +30,10 @@ const books = {
     },
     {
       name: "The Adventures of Sherlock Holmes:Sir Arthur Conan Doyle",
+      year: "2020"
+    },
+    {
+      name: "The Hound of the Baskervilles ",
       year: "2020"
     }
   ]
